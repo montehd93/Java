@@ -1,0 +1,19 @@
+package models.utils;
+
+public class Account {
+	Integer number;
+	String holder;
+	Double balance;
+	Double withdrawLimit;
+	public Account() {
+		
+	}
+	public Account(Integer number, String holder, Double balance, Double withdrawLimit) {
+		this.number = number;
+		this.holder = holder;
+		this.balance = balance;
+		this.withdrawLimit = withdrawLimit;
+	}
+	
+	
+}

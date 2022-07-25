@@ -1,0 +1,40 @@
+package application;
+
+import java.util.Iterator;
+import java.util.Locale;
+import java.util.Scanner;
+
+public class Program {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		Locale.setDefault(Locale.US);
+		Scanner sc = new Scanner(System.in);
+
+		System.out.println("Insira o valor da matriz :");
+		int input = sc.nextInt();
+		int [][]matriz = new int[input][input];
+		for (int i = 0; i < matriz.length; i++) {
+			for (int z = 0; z < matriz[i].length; z++) {
+				System.out.printf("Insira o valor do elemento da matriz ["+ i +"] ["+ z +"] :" );
+				sc.nextLine();
+				matriz[i][z] = sc.nextInt(); 
+			}
+		}
+		System.out.println("Main diagonal: ");
+		for(int y=0; y<input; y++) {
+			System.out.printf(matriz[y][y] + " ");
+		}
+		System.out.println();
+		int negative =0;
+		for(int y=0; y<matriz.length; y++) {
+			for (int z = 0; z < matriz[y].length; z++) {
+				if (matriz[y][z] < 0) {
+					negative++;
+				}
+			}
+		}
+		System.out.println("Negative numbers = " + negative);
+	}
+
+}

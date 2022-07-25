@@ -1,0 +1,9 @@
+package entities;
+
+public class Individual extends TaxPlayer{
+	private Double healtExpenditures;
+	
+	public Double tax() {
+		return 
+	}
+}

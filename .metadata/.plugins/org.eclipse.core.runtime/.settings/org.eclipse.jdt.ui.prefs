@@ -1,0 +1,10 @@
+content_assist_lru_history=<?xml version\="1.0" encoding\="UTF-8" standalone\="no"?><history maxLHS\="100" maxRHS\="10"><lhs name\="utils.Account"><rhs name\="utils.Account"/></lhs><lhs name\="java.lang.Cloneable"><rhs name\="java.util.Locale"/><rhs name\="java.text.SimpleDateFormat"/></lhs><lhs name\="entities.TaxPayer"><rhs name\="entities.Company"/><rhs name\="entities.Individual"/></lhs><lhs name\="java.lang.Enum"><rhs name\="java.util.concurrent.TimeUnit"/></lhs><lhs name\="java.text.DateFormat"><rhs name\="java.text.SimpleDateFormat"/></lhs><lhs name\="java.text.Format"><rhs name\="java.text.SimpleDateFormat"/></lhs><lhs name\="java.text.SimpleDateFormat"><rhs name\="java.text.SimpleDateFormat"/></lhs><lhs name\="model.entities.Reservation"><rhs name\="model.entities.Reservation"/></lhs><lhs name\="java.lang.Exception"><rhs name\="java.text.ParseException"/><rhs name\="models.exceptions.DomainException"/></lhs><lhs name\="java.lang.Throwable"><rhs name\="java.text.ParseException"/><rhs name\="models.exceptions.DomainException"/></lhs><lhs name\="java.text.ParseException"><rhs name\="java.text.ParseException"/></lhs><lhs name\="models.exceptions.DomainException"><rhs name\="models.exceptions.DomainException"/></lhs></history>
+content_assist_number_of_computers=12
+content_assist_proposals_background=255,255,255
+content_assist_proposals_foreground=0,0,0
+eclipse.preferences.version=1
+org.eclipse.jdt.ui.formatterprofiles.version=22
+spelling_locale_initialized=true
+typefilter_migrated_2=true
+useAnnotationsPrefPage=true
+useQuickDiffPrefPage=true

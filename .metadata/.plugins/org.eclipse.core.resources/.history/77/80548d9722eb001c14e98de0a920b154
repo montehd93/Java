@@ -1,0 +1,17 @@
+package entities;
+
+public class Individual extends TaxPlayer{
+	private Double healtExpenditures;
+	
+	public Individual() {
+		super();
+	}
+	
+	public Individual(Double healtExpenditures) {
+		this.healtExpenditures = healtExpenditures;
+	}
+
+	public Double tax() {
+		return 
+	}
+}

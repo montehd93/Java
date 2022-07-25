@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Rename compilation unit &apos;entities.TaxPlayer.java&apos; to &apos;TaxPayer.java&apos;&#x0D;&#x0A;- Original project: &apos;Imposto&apos;&#x0D;&#x0A;- Original element: &apos;entities.TaxPlayer.java&apos;&#x0D;&#x0A;- Renamed element: &apos;entities.TaxPayer.java&apos;" description="Rename compilation unit &apos;TaxPlayer.java&apos;" flags="2" id="org.eclipse.jdt.ui.rename.compilationunit" input="/src&lt;entities{TaxPlayer.java" name="TaxPayer.java" references="false" stamp="1657503823274" version="1.0"/>
+</session>

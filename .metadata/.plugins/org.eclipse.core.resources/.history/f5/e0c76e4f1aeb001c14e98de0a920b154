@@ -1,0 +1,8 @@
+package entities;
+
+public class TaxPlayer {
+	private String name;
+	private Double anualIncome;
+	
+	public abstract Double tax();
+}

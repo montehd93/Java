@@ -1,0 +1,28 @@
+package application;
+
+import java.util.Iterator;
+import java.util.Locale;
+import java.util.Scanner;
+
+public class Program {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		Locale.setDefault(Locale.US);
+		Scanner sc = new Scanner(System.in);
+
+		System.out.println("Insira o valor da matriz :");
+		int input = sc.nextInt();
+		int [][]matriz = new int[n][n];
+		for (int i = 0; i < input; i++) {
+			for (int z = 0; z < input; z++) {
+				System.out.printf("Insira o valor do elemento da matriz ["+ i +"] ["+ z +"] :" );
+				sc.nextLine();
+				matriz[i][z] = sc.nextInt(); 
+			}
+		}
+		System.out.println(matriz);
+
+	}
+
+}

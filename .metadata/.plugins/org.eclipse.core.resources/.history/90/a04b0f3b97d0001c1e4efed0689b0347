@@ -1,0 +1,43 @@
+package application;
+
+import java.util.Locale;
+import java.util.Scanner;
+
+import entities.Department;
+import entities.enums.WorkerLevel;
+
+public class Program {
+
+	public static void main(String[] args) {
+		Locale.setDefault(Locale.US);
+		Scanner sc = new Scanner(System.in);
+		
+		System.out.printf("Enter department's name:");
+		String department = sc.nextLine();
+		new Department(department);
+		System.out.println("Enter worker data:");
+		sc.nextLine();
+		System.out.printf("Name: ");
+		String name = sc.nextLine();
+		System.out.printf("Level: ");
+		String level = sc.nextLine();
+		sc.nextLine();
+		System.out.printf("Base Salary: ");
+		double salary = sc.nextDouble();
+		sc.nextLine();
+		System.out.printf("How many contracts to this worker? ");
+		int contracts = sc.nextInt();
+		
+		for(int i=1; i<=contracts;i++) {
+			System.out.println("Enter contract #" + i + "data:");
+			System.out.printf("Date (DD/MM/YYYY): ");
+			System.out.printf("Value per hour: ");
+			System.out.printf("Duration (hours): ");
+		}
+		
+		System.out.printf("Enter month and year to calculate income (MM/YYYY): ");
+		
+		sc.close();
+	}
+
+}

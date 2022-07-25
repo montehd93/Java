@@ -1,0 +1,27 @@
+package entities;
+
+public class Individual extends TaxPlayer {
+	private Double healtExpenditures;
+
+	public Individual() {
+		super();
+	}
+
+	public Individual(Double healtExpenditures) {
+		this.healtExpenditures = healtExpenditures;
+	}
+
+	public Double tax() {
+		Double tax = 0.0;
+		if (healtExpenditures == 0.0) {
+			
+		}else {
+			
+			Double lessTax = healtExpenditures/2.0;
+		}
+		if (super.getAnualIncome() < 20000) {
+			
+		}
+		return tax;
+	}
+}
